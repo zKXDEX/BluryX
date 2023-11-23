@@ -4,7 +4,7 @@
 Bluryx is a Node.js library designed to integrate visual effects into desktop applications. It provides functions to enable blur effects behind windows and to extend the client frame area of windows.
 
 ## Installation
-To use Bluryx in your project, you need to install it via npm or yarn:
+To use Bluryx in your project, you need to install it via npm, pnpm or yarn:
 ```
 npm install bluryx
 ```
