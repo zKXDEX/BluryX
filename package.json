@@ -1,0 +1,43 @@
+{
+  "name": "BluryX",
+  "description": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "zkxdex",
+    "github": "https://github.com/zkxdex"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zkxdex/bluryx.git"
+  },
+  "homepage": "https://github.com/zkxdex/bluryx",
+  "bugs": {
+    "url": "https://github.com/zkxdex/bluryx/issues"
+  },
+  "os": [
+    "win32"
+  ],
+  "keywords": [
+    "bindings",
+    "native",
+    "transparency",
+    "blur",
+    "aero"
+  ],
+
+  "devDependencies": {
+    "node-gyp": "^10.0.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.4"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "build": "node-gyp build"
+  }
+  
+}
