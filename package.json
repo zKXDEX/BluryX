@@ -39,5 +39,5 @@
     "prepare": "tsc",
     "build": "node-gyp build"
   }
-  
+
 }
